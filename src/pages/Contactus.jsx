@@ -112,7 +112,7 @@ function Contactus() {
       <>
         <div className='w-full h-auto bg-white md:px-10 px-2 mt-10 '>
 
-            <div className='w-full md:h-[300px] h-auto bg-[#38615a] rounded-2xl  relative pb-6 '>
+            <div className='w-full md:h-[300px] h-auto bg-[#38615a] rounded-2xl  relative pb-4 '>
                 <Navbar />
                 <hr className='border-1   w-[90%] mx-auto border-gray-400  '/>
                 <h1 className='text-center font-semibold text-[30px] md:text-[60px] text-white'>Contact us</h1>

@@ -23,7 +23,7 @@ const HomePage = () => {
                     <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 text-white gap-8 ">
                         {/* Left Side - Text & CTA */}
                         <div className="md:w-1/2 w-full items-center justify-center text-center ">
-                            <h1 className="text-[50px] md:text-[50px] font-bold  font-Satoshi leading-tight">
+                            <h1 className="text-2xl md:text-[50px] font-bold  font-Satoshi leading-tight">
                                 Find Skilled Laborers for<span> Any Job, Anytime!</span>
                             </h1>
                             <p className="mt-4 text-lg text-gray-300 font-bold font-Satoshi">

@@ -21,6 +21,20 @@ const Section4 = () => {
                      icon: img1,
                      item: 'Easily Track Your jobs',
                      description: "Get reliable, affordable, and on-demand labor services at your fingertips.",
+              },{
+                     icon: img1,
+                     item: 'Easily Track Your jobs',
+                     description: "Get reliable, affordable, and on-demand labor services at your fingertips.",
+              },
+              {
+                     icon: img1,
+                     item: 'Easily Track Your jobs',
+                     description: "Get reliable, affordable, and on-demand labor services at your fingertips.",
+              },
+              {
+                     icon: img1,
+                     item: 'Easily Track Your jobs',
+                     description: "Get reliable, affordable, and on-demand labor services at your fingertips.",
               }
        ];
        return (
@@ -41,22 +55,22 @@ const Section4 = () => {
                             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-lg w-[200px] md:w-[300px] md:h-[600px] h-[100px]px]">
                                    <img src={Middle} alt="Middle Section" className="w-full h-full object-cover " />
                             </div>
-                            <div className=' hidden md:block absolute top-12 left-0 lg:left-50'>
+                            <div className=' hidden md:block absolute top-0 lg:top-12 left-0 lg:left-50'>
                                    <Card />
                             </div>
-                            <div className='hidden md:block absolute top-12 right-0 lg:right-50'>
+                            <div className='hidden md:block absolute lg:top-12 right-0 lg:right-50'>
                                    <Card />
                             </div>
-                            <div className='hidden md:block absolute top-[270px] right-0  lg:left-5'>
+                            <div className='hidden md:block absolute top-[220px] lg:top-[270px] left-0  lg:left-5'>
                                    <Card />
                             </div>
-                            <div className='hidden md:block absolute top-[270px] right-0 lg:right-5'>
+                            <div className='hidden md:block absolute top-[220px] lg:top-[270px] right-0 lg:right-5'>
                                    <Card />
                             </div>
-                            <div className='hidden md:block absolute -bottom-12 lg:-bottom-18 right-0 lg:right-50 '>
+                            <div className='hidden md:block absolute -bottom-28 lg:-bottom-18 right-0 lg:right-50 '>
                                    <Card />
                             </div>
-                            <div className='hidden md:block absolute -bottom-12 lg:-bottom-20 left-0 lg:left-50'>
+                            <div className='hidden md:block absolute -bottom-28 lg:-bottom-20 left-0 lg:left-50'>
                                    <Card />
                             </div>
 
