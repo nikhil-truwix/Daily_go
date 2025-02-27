@@ -3,6 +3,10 @@ import ring from '../assets/ring.png'
 import Navbar from '../Component/Navbar'
 import { Link } from 'react-router-dom'
 import Footer from '../Component/Footer'
+import toph from '../assets/278.png'
+import starw from '../assets/Starwhite.png'
+import righth from '../assets/283.svg'
+import rightv from '../assets/left1.png'
 const TermsPage = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
@@ -10,10 +14,15 @@ const TermsPage = () => {
  
     return (
         <>
-        <div className='p-4 w-full h-auto'>
+        <div className='p-6 w-full h-auto overflow-x-hidden'>
             <div className='w-full md:h-[297px] h-auto relative bg-[#496f69] rounded-3xl flex flex-col  gap-2 md:pb-10 pb-6  '>
                 <Navbar />
-                <hr className='border-1   w-[90%] mx-auto border-gray-400  '/>
+                 <div className=' md:block'>
+                          <img src={toph} className=' absolute top-18 md:top-25 md:left-12 left:10 z-40 ' />
+                       </div>
+                     <img src={starw} className ='hidden md:block absolute top-30 right-24'/>
+                              <img src={righth} className='hidden md:block absolute top-40 -right-25 ' />
+                               <img src={rightv} className='hidden md:block absolute top-40 right-27' />
                  <img src={ring} className=' absolute top-0 w-full h-full' />
                 <h1 className='text-center font-semibold text-[30px] md:text-[60px] text-white'>Terms and Conditions</h1>
                 <div className='flex gap-2 items-center justify-center text-white '>
@@ -23,8 +32,8 @@ const TermsPage = () => {
             </div>
  
             <h1 className='text-center text-[24px] mt-4 py-6'><span className='text-[#366059]'>Last Updated:</span>21 Jan 2024</h1>
-            <p className='px-4 md:px-20'>Welcome to DailyGo! These Terms and Conditions ("Terms", "Terms and Conditions") govern your use of the DailyGo mobile application (the "App") and the services provided by DailyGo ("we", "us", or "our"). By downloading, installing, or using the App, you agree to comply with and be bound by these Terms. Please read them carefully.</p>
-            <div className="px-4 md:px-20 pt-28 pb-10 ">
+            <p className='px-4 text-[18px] md:px-20'>Welcome to DailyGo! These Terms and Conditions ("Terms", "Terms and Conditions") govern your use of the DailyGo mobile application (the "App") and the services provided by DailyGo ("we", "us", or "our"). By downloading, installing, or using the App, you agree to comply with and be bound by these Terms. Please read them carefully.</p>
+            <div className="px-4 md:px-20 pt-15 pb-10 ">
                 <h1 className="md:text-4xl  text-2xl font-bold mb-4 uppercase text-black" >
                 1. Acceptance of Terms
                 </h1>

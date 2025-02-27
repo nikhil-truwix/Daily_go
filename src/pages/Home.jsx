@@ -11,11 +11,14 @@ import Section5 from '../Component/Homepagecomponent/Section5'
 import Footer from '../Component/Footer'
 import left from '../assets/left1.png'
 import horizontal from '../assets/horizontal.png'
+import righth from '../assets/283.svg'
+import rightv from '../assets/282.png'
+import toph from '../assets/278.png'
 const HomePage = () => {
     return (
         <>
 
-            <div className='w-full min-h-screen bg-white md:px-6 px-4 md:py-6 py-4'>
+            <div className='w-full min-h-screen bg-white p-6'>
                 <div className=' rounded-2xl  bg-[#366059] overflow-hidden relative '>
                     <div>
                         <img src={Ring} className='absolute bottom-7'/>
@@ -23,14 +26,16 @@ const HomePage = () => {
                     <div>
                     <img src={left} className=' absolute bottom-40 left-14 z-40 ' />
                     </div>
-                    <div>
+                    <div className='hidden md:block'>
                       <img src={horizontal} className=' absolute bottom-40 left-45 z-40 ' />
                     </div>
                     <Navbar />
-                    <hr className='border-0.2  w-[90%] mx-auto border-white  ' />
+                    <div>
+                   <img src={toph} className=' absolute top-18 md:top-25 md:left-12 left:10 z-40 ' />
+                    </div>
                     <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 text-white gap-8 ">
                         {/* Left Side - Text & CTA */}
-                        <div className="md:w-1/2 w-full items-center justify-center text-center ">
+                        <div className="lg:w-1/2 w-full items-center justify-center text-center pt-10 lg:pt-0">
                             <h1 className="text-2xl md:text-[50px] font-bold  font-Satoshi leading-tight">
                                 Find Skilled Laborers for<span> Any Job, Anytime!</span>
                             </h1>
@@ -48,10 +53,19 @@ const HomePage = () => {
                         </div>
 
                         {/* Right Side - Image with z-index */}
-                        <div className="md:w-1/2 w-full flex justify-center relative z-40">
+                        <div className="lg:w-1/2 w-full flex justify-center relative z-40">
                             <img src={Hero} alt="Skilled Worker" className="w-full h-full" />
                         </div>
+                        <div className='hidden md:block'>
+                        <div>
+                        <img src={righth} className='absolute top-40 right-6 ' />
                         
+                        </div>
+                        <div>
+                        <img src={rightv} className='absolute top-40 right-55' />
+                        </div>
+                        </div>
+                       
                     </div>
                     <Section />
                 </div>
