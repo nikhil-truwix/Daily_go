@@ -1,6 +1,6 @@
 import React from 'react'
-import phone1 from '../../assets/iphone1.png'
-import phone2 from '../../assets/iphone1.png'
+import phone1 from '../../assets/iPhone1.png'
+
 import Bgimage3 from '../../assets/Container.png'
 import icon  from '../../assets/Group.svg'
 import icon1  from '../../assets/Group1.svg'
@@ -11,7 +11,7 @@ function Dailygo() {
         <div className='w-[400px] h-full relative z-30 left-10 bottom-10 '>
           <img src={Bgimage3} alt='dailygo' />
           <img src={phone1} alt='dailygo' className='  absolute z-50 left-13 -bottom-13 shadow-2xl' />
-          <img src={phone2} alt='dailygo' className='  top-20 absolute  z-4   -left-20 shadow-2xl' />
+          <img src={phone1} alt='dailygo' className='  top-20 absolute  z-4   -left-20 shadow-2xl' />
         </div>
       </div>
 
