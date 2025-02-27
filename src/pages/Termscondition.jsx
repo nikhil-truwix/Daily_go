@@ -4,7 +4,7 @@ import Navbar from '../Component/Navbar'
 import { Link } from 'react-router-dom'
 import Footer from '../Component/Footer'
 import toph from '../assets/278.png'
-import starw from '../assets/Starwhite.png'
+import starw from '../assets/starwhite.png'
 import righth from '../assets/283.svg'
 import rightv from '../assets/left1.png'
 const TermsPage = () => {
