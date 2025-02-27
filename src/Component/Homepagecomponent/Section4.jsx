@@ -88,7 +88,7 @@ const Section4 = () => {
                                    <div key={index} className="border border-gray-200 p-6 rounded-xl text-center shadow-md bg-white">
                                           <div className="flex justify-center items-center mb-4">
                                                  <div className="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full">
-                                                        <img src={box.icon} className="w-10 h-10 object-cover" />
+                                                        <img src={box.icon} className="w-6 h-6 object-cover" />
                                                  </div>
                                           </div>
                                           <h3 className="text-lg font-semibold text-gray-800">{box.item}</h3>
