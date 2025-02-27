@@ -9,6 +9,8 @@ import Section2 from '../Component/Homepagecomponent/Section2'
 import Section4 from '../Component/Homepagecomponent/Section4'
 import Section5 from '../Component/Homepagecomponent/Section5'
 import Footer from '../Component/Footer'
+import left from '../assets/left1.png'
+import horizontal from '../assets/horizontal.png'
 const HomePage = () => {
     return (
         <>
@@ -16,10 +18,16 @@ const HomePage = () => {
             <div className='w-full min-h-screen bg-white md:px-6 px-4 md:py-6 py-4'>
                 <div className=' rounded-2xl  bg-[#366059] overflow-hidden relative '>
                     <div>
-                        <img src={Ring} className='absolute bottom-7 ' />
+                        <img src={Ring} className='absolute bottom-7'/>
+                    </div>
+                    <div>
+                    <img src={left} className=' absolute bottom-40 left-14 z-40 ' />
+                    </div>
+                    <div>
+                      <img src={horizontal} className=' absolute bottom-40 left-45 z-40 ' />
                     </div>
                     <Navbar />
-                    <hr className='border-1  w-[90%] mx-auto border-gray-600  ' />
+                    <hr className='border-0.2  w-[90%] mx-auto border-white  ' />
                     <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 text-white gap-8 ">
                         {/* Left Side - Text & CTA */}
                         <div className="md:w-1/2 w-full items-center justify-center text-center ">

@@ -7,6 +7,7 @@ import mailicon from "../assets/mailicon.svg";
 import phone from "../assets/phone.svg";
 import image from '../assets/contactimage.png'
 import Footer from '../Component/Footer'
+import star from '../assets/Star.svg'
 function Contactus() {
     const [formData, setFormData] = useState({
         name: "",
@@ -113,14 +114,21 @@ function Contactus() {
         <div className='w-full h-auto bg-white md:px-10 px-2 mt-10 '>
 
             <div className='w-full md:h-[300px] h-auto bg-[#38615a] rounded-2xl  relative pb-4 '>
+               
+               
                 <Navbar />
+                <div>
+                </div>
                 <hr className='border-1   w-[90%] mx-auto border-gray-400  '/>
                 <h1 className='text-center font-semibold text-[30px] md:text-[60px] text-white'>Contact us</h1>
                 <div className='flex gap-2 items-center justify-center text-white '>
                     <span >Home</span><span>-</span><span>Contact us</span>
-              </div>
+                 </div>
                 <img src={ring} className=' absolute top-0 w-full h-full' />
-                     </div>
+                
+              
+               
+                </div>
 
 
 

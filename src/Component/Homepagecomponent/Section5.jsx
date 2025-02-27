@@ -22,13 +22,13 @@ function Dailygo() {
           <h1 className=' text-[30px] md:text-[60px] md:leading-16 font-bold text-black'>Daily Go: <br />
             Your Local Labour Solution</h1>
           <div className='flex flex-col gap-6 '>
-            <p className='text-[18px]  text-gray-500   '>Welcome to Daily Go, the app designed to connect you with skilled local labourers for all your needs. Whether you’re looking for a brick picker for your home construction or a reliable majdoor for everyday tasks.</p>
-            <p className='text-[18px]  text-gray-500 '>Daily Go makes hiring easy and efficient. With just a few taps, find trusted labourers in your area who are ready to help you get the job done. Empowering communities, one job at a time—experience hassle-free hiring with Daily Go!</p>
+            <p className='text-[10px]  text-gray-500   '>Welcome to Daily Go, the app designed to connect you with skilled local labourers for all your needs. Whether you’re looking for a brick picker for your home construction or a reliable majdoor for everyday tasks.</p>
+            <p className='text-[10px]  text-gray-500 '>Daily Go makes hiring easy and efficient. With just a few taps, find trusted labourers in your area who are ready to help you get the job done. Empowering communities, one job at a time—experience hassle-free hiring with Daily Go!</p>
           </div>
         </div>
 
 
-        <div className="flex space-x-4 justify-start items-start">
+        <div className="w-full grid grid-cols-2 gap-4">
           {/* App Store Button */}
           <a
             href="https://www.apple.com/app-store/"
@@ -40,8 +40,8 @@ function Dailygo() {
               <img src={icon} className='w-8'/>
             </div>
             <div>
-              <p className="text-xs uppercase">Download on the</p>
-              <p className="text-lg font-semibold">App Store</p>
+              <p className="text-[10px] uppercase">Download on the</p>
+              <p className="text-[12px] font-semibold">App Store</p>
             </div>
           </a>
 
@@ -57,8 +57,8 @@ function Dailygo() {
             </div>
            
             <div>
-              <p className="text-xs uppercase">Get it on</p>
-              <p className="text-lg font-semibold">Google Play</p>
+              <p className="text-[12px] uppercase">Get it on</p>
+              <p className="text-[12px] font-semibold">Google Play</p>
             </div>
           </a>
         </div>
