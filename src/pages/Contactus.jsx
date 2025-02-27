@@ -7,7 +7,6 @@ import mailicon from "../assets/mailicon.svg";
 import phone from "../assets/phone.svg";
 import image from '../assets/contactimage.png'
 import Footer from '../Component/Footer'
-import star from '../assets/Star.svg'
 import toph from '../assets/278.png'
 import starw from '../assets/starwhite.png'
 import righth from '../assets/283.svg'
