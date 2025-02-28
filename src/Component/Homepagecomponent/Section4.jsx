@@ -50,7 +50,7 @@ const Section4 = () => {
 
 
 
-                     <div className=" w-full   md:h-screen h-[400px] relative md:pb-10 pb-4">
+                     <div className=" w-full   md:h-screen h-[400px] relative md:pb-10 mt-20 pb-4">
                             
                             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 shadow-lg w-[200px] md:w-[300px] md:h-[600px] h-[100px]px]">
                                    <img src={Middle} alt="Middle Section" className="w-full h-full object-cover " />
@@ -83,7 +83,7 @@ const Section4 = () => {
                      </div>
                      {/* mobile phone */}
 
-                     <div className='w-full  md:hidden max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-12 mt-10 py-7'>
+                     <div className='w-full  md:hidden grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 lg:gap-12 mt-10 py-7'>
                             {box.map((box, index) => (
                                    <div key={index} className="border border-gray-200 p-6 rounded-xl text-center shadow-md bg-white">
                                           <div className="flex justify-center items-center mb-4">

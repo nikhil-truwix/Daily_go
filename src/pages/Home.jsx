@@ -14,6 +14,10 @@ import horizontal from '../assets/horizontal.png'
 import righth from '../assets/283.svg'
 import rightv from '../assets/282.png'
 import toph from '../assets/278.png'
+import findworker from '../assets/findworker.png'
+import hireworker from '../assets/hireworker.png'
+import PopularCategory from '../Component/Homepagecomponent/PopularCategory'
+import How from '../Component/Homepagecomponent/How'
 const HomePage = () => {
     return (
         <>
@@ -21,17 +25,17 @@ const HomePage = () => {
             <div className='w-full min-h-screen bg-white p-6'>
                 <div className=' rounded-2xl  bg-[#366059] overflow-hidden relative '>
                     <div>
-                        <img src={Ring} className='absolute bottom-7'/>
+                        <img src={Ring} className='absolute bottom-7' />
                     </div>
                     <div>
-                    <img src={left} className=' absolute bottom-40 left-14 z-40 ' />
+                        <img src={left} className=' absolute bottom-40 left-14 z-40 ' />
                     </div>
                     <div className='hidden md:block'>
-                      <img src={horizontal} className=' absolute bottom-40 left-45 z-40 ' />
+                        <img src={horizontal} className=' absolute bottom-40 left-45 z-40 ' />
                     </div>
                     <Navbar />
                     <div>
-                   <img src={toph} className=' absolute top-18 md:top-25 md:left-12 left:10 z-40 ' />
+                        <img src={toph} className=' absolute top-18 md:top-25 md:left-12 left:10 z-40 ' />
                     </div>
                     <div className="flex flex-col md:flex-row items-center justify-between px-6 md:px-20 text-white gap-8 ">
                         {/* Left Side - Text & CTA */}
@@ -57,20 +61,27 @@ const HomePage = () => {
                             <img src={Hero} alt="Skilled Worker" className="w-full h-full" />
                         </div>
                         <div className='hidden md:block'>
-                        <div>
-                        <img src={righth} className='absolute top-40 right-6 ' />
-                        
+                            <div>
+                                <img src={righth} className='absolute top-40 right-6 ' />
+
+                            </div>
+                            <div>
+                                <img src={rightv} className='absolute top-40 right-55' />
+                            </div>
                         </div>
-                        <div>
-                        <img src={rightv} className='absolute top-40 right-55' />
-                        </div>
-                        </div>
-                       
+
                     </div>
                     <Section />
+
+                </div>
+                <div className='flex md:flex-row flex-col gap-8 md:gap-20 justify-center items-center pt-10 md:pt-32 pb-10'>
+                    <button className="w-full lg:w-[40%]  flex items-center justify-center gap-4 px-4 py-2 bg-[#004439] text-white font-bold md:text-[30px] rounded-lg cursor-pointer"><span><img src={hireworker} className='w-full h-full pr-6 '/></span>Hire a Worker</button>
+                    <button className= 'w-full lg:w-[40%] flex  items-center justify-center gap-4  px-4 py-2 bg-[#004439] text-white md:text-[30px] font-bold rounded-lg cursor-pointer'><span><img src={findworker} className='w-full h-full pr-6'/></span>Find a Worker</button>
                 </div>
                 <Section1 />
+                <PopularCategory/>
                 <Section2 />
+                <How/>
                 <Section4 />
                 <Section5 />
             </div>
